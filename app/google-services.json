@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "395504821238",
+    "project_id": "rto-office",
+    "storage_bucket": "rto-office.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:395504821238:android:ccfd1cab93efaf6f761dd7",
+        "android_client_info": {
+          "package_name": "com.example.rto"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "395504821238-ipq3u5ig94nlhu33uheqr5go9c5vau38.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkMHpOloHmMOK6hMnBc9W10iMO-MLSPD0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "395504821238-ipq3u5ig94nlhu33uheqr5go9c5vau38.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

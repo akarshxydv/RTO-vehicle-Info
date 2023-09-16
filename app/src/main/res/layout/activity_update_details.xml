@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:background="@drawable/backgroundimg"
+    tools:context=".updateDetails">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="200dp"
+        android:layout_gravity="center_horizontal"
+        android:padding="20dp">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:id="@+id/referenceVehicle"
+            android:background="@drawable/border"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:padding="16dp"
+            android:hint="Enter Vehicle number"
+            android:gravity="start|center_vertical"
+            android:textColor="#027729"
+            android:textColorHint="@color/black"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Check"
+            android:textColor="@color/black"
+            android:id="@+id/check"
+            android:textSize="18sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/btnborder"
+            app:cornerRadius = "20dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:id="@+id/updateName"
+            android:background="@drawable/border"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:padding="16dp"
+            android:hint="Enter Owner name"
+            android:gravity="start|center_vertical"
+            android:visibility="gone"
+            android:textColor="#027729"
+            android:textColorHint="@color/black"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:id="@+id/updatebrand"
+            android:background="@drawable/border"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:padding="16dp"
+            android:hint="Enter Vehicle Brand"
+            android:visibility="gone"
+            android:gravity="start|center_vertical"
+            android:textColor="#027729"
+            android:textColorHint="@color/black"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:id="@+id/updatePnumber"
+            android:background="@drawable/border"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:padding="16dp"
+            android:hint="Enter Phone Number"
+            android:visibility="gone"
+            android:gravity="start|center_vertical"
+            android:textColor="#027729"
+            android:textColorHint="@color/black"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Update"
+            android:textColor="@color/black"
+            android:id="@+id/updateButton"
+            android:textSize="18sp"
+            android:layout_marginTop="20dp"
+            android:visibility="gone"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/btnborder"
+            app:cornerRadius = "20dp"/>
+    </LinearLayout>
+</LinearLayout>
